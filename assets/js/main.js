@@ -30,6 +30,7 @@ function agregarNombre() {
         localStorage.setItem("nombres", JSON.stringify(nombres));
         nombreInput.value = "";
         actualizarLista();
+        editando = false;
     }
 
 }
